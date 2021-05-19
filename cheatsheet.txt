@@ -1,0 +1,16 @@
+steps to upload a private project on repository
+
+* git config --global user.name "sajjad khan"
+* git config --global user.email "sajjadkhan6361@gmail.com"
+* git init
+* git add .
+* git commit -m "Initial commit"
+* git status --> just to see
+generate ssh key
+get user address copy that address and paste with following command to get ssh key (/c/Users/UAE/.ssh/id_rsa.pub)
+cat /c/Users/UAE/.ssh/id_rsa.pub
+copy key and paste to github
+copy ssh link from the project and paste with following coommand (git remote add origin "paste here like below")
+* git remote add origin git@github.com:yousufkhan6361/my-admin-panel.git
+* git push origin master
+project will be uploaded to repository
